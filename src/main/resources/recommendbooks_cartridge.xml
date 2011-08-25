@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CartridgeDefinition Uri="taf:cartridge:audiencemanager" Description="Audience manager cartridge.">
+	<ClaimDefinitions>
+		<ClaimDefinition Uri="com:tridion:smarttarget:samples:recommendbooks:category"
+                         Scope="SESSION"
+                         Subject="com:tridion:smarttarget:samples:recommendbooks"
+                         Description="The Most lookedat category" />
+	</ClaimDefinitions>
+
+	<ClaimProcessorDefinitions>
+		<ClaimProcessorDefinition Uri="com:tridion:smarttarget:samples:recommendbooks"
+				ImplementationClass="com.tridion.smarttarget.samples.recommendbooks.RecommendBooksClaimProcessor"
+				Description="This will put the most looked at category into the claimstore">
+			<RequestStart>
+				<InputClaims />
+				<OutputClaims>
+					<ClaimDefinition Uri="com:tridion:smarttarget:samples:recommendbooks:category" />
+				</OutputClaims>
+			</RequestStart>
+		</ClaimProcessorDefinition>
+	</ClaimProcessorDefinitions>
+</CartridgeDefinition>
