@@ -6,7 +6,6 @@
                          Subject="com:tridion:smarttarget:samples:recommendbooks"
                          Description="The Most lookedat category" />
 	</ClaimDefinitions>
-
 	<ClaimProcessorDefinitions>
 		<ClaimProcessorDefinition Uri="com:tridion:smarttarget:samples:recommendbooks"
 				ImplementationClass="com.tridion.smarttarget.samples.recommendbooks.RecommendBooksClaimProcessor"

@@ -17,7 +17,6 @@ public class RecommendBooksClaimProcessor extends AbstractClaimProcessor {
         claimStore.put(RECOMMENDED_CATEGORY_URI, category, true);
     }
 
-
    // dummy implementation of a bussiness model that instead of getting the most lookedat category, gets a random one.
    class YourBusinessModel {
         private List<String> categories = new ArrayList<String>(Arrays.asList("Science Fiction","Fantasy", "Fiction", "Thriller", "Romance"));
@@ -25,10 +24,8 @@ public class RecommendBooksClaimProcessor extends AbstractClaimProcessor {
         private String getMostLookedAtCategory() {
             int random = new Random().nextInt(categories.size());
             return categories.get(random);
-
         }
     }
-
 }
 
 
