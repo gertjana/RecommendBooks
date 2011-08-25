@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration Version="1.1.0">
+    <!-- the rest of the configuration left out for brevity -->
+    <SmartTarget>
+        <AmbientData>
+            <Prefixes>
+                <com_tridion_smarttarget_samples_recommendedbooks>rb</com_tridion_smarttarget_samples_recommendedbooks>
+            </Prefixes>
+        </AmbientData>
+    </SmartTarget>
+</Configuration>

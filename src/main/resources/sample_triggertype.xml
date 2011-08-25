@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<trigger-types xmlns="http://www.fredhopper.com/schema/knowledge-model/trigger/type/1.0">
+    <trigger-type url-param="rb_category" name="Category (most looked at)" basetype="text">
+        <list-of-values multiselect="true">
+			<value>Fantasy</value>
+			<value>Fiction</value>
+			<value>Romance</value>
+            <value>Science Fiction</value>
+            <value>Thriller</value>
+		</list-of-values>
+	</trigger-type>
+    <!-- other trigger-types removed for brevity -->
+</trigger-types>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+	<Cartridges>
+		<Cartridge File="/recommendedbooks_cartridge.xml" />
+        <!-- other cartridges removed for brevity -->
+	</Cartridges>
+</Configuration>
