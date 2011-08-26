@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CartridgeDefinition Uri="taf:cartridge:audiencemanager" Description="Audience manager cartridge.">
+<CartridgeDefinition Uri="com:tridion:smarttarget:samples:recommendbooks" Description="Recommended books cartridge.">
 	<ClaimDefinitions>
 		<ClaimDefinition Uri="com:tridion:smarttarget:samples:recommendbooks:category"
-                         Scope="SESSION"
+                         Scope="REQUEST"
                          Subject="com:tridion:smarttarget:samples:recommendbooks"
                          Description="The Most lookedat category" />
 	</ClaimDefinitions>
