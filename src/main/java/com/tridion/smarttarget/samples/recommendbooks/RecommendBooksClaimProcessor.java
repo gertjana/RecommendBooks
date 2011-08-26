@@ -1,4 +1,4 @@
-package com.tridion.smartatget.samples.recommendbooks;
+package com.tridion.smarttarget.samples.recommendbooks;
 
 import com.tridion.ambientdata.AmbientDataException;
 import com.tridion.ambientdata.claimstore.ClaimStore;
